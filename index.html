@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color buttons</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <aside id="menu">
+        <button id="toggle-theme-btn" class="theme-btn" data-theme="light">light theme</button>
+        <div class="legend">
+            <p>keyboard tools:</p>
+            <ul>
+                <li><span>c</span><br /> random color</li>
+                <li><span>w</span><br /> white color</li>
+                <li><span>d</span><br /> black color</li>
+                <li><span>v</span><br /> multi-color </li>
+                <li><span>hold shift</span><br /> no color </li>
+                <li><span>hold shift+click</span><br /> copy color </li>
+                <li><span>hold shift+dblclick</span><br /> change background color </li>
+            </ul>
+        </div>
+    </aside>
+    <div id="wrapper">
+        <div id="multi-btn-container"></div>
+    </div>
+    <script src="multi-btns.mjs"></script>
+</body>
+
+</html>
